@@ -1,0 +1,27 @@
+$main-mint : #bbf3da;
+$light-mint : #f1fcf7;
+$main-grey : #2f2f2f;
+
+.toggle-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 24px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    box-sizing: border-box;
+
+    :focus {
+        outline: none;
+    }
+
+}
+
+.toggle-button__line {
+    width: 30px;
+    height: 1.5px;
+    background: white;
+}

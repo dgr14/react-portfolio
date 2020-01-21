@@ -1,0 +1,25 @@
+$main-mint : #bbf3da;
+$light-mint : #f1fcf7;
+$main-grey : #2f2f2f;
+
+.App {
+    height: 100%;
+    background-color: $main-grey;
+    display: flex;
+    flex-direction: column;
+
+}
+
+// View
+
+.view{
+    height: 80%;
+    background-color: $main-mint;
+}
+
+// Nav
+
+.nav{
+    height: 10%;
+    background-color: $light-mint;
+}
