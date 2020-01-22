@@ -15,6 +15,9 @@ $main-grey : #2f2f2f;
 .view{
     height: 80%;
     background-color: $main-mint;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 // Nav

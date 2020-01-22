@@ -21,7 +21,7 @@ $main-grey : #2f2f2f;
 .toolbar__logo  {
     margin-left: 0.5rem;
     a {
-        color: lightgrey;
+        color: $main-grey;
         text-decoration: none;
         font-size: 1.5rem;
 
@@ -50,6 +50,21 @@ $main-grey : #2f2f2f;
         color: red;
     }
     
+}
+
+@media (max-width: 768px){
+    .toolbar_navigation-items{
+        display: none
+    }
+}
+
+@media (min-width: 769px) {
+    .toolbar__toggle-button {
+        display: none;
+    }
+    .toolbar__logo {
+        margin-left: 0;
+    }
 }
 
 // .toolbar_navigation-items a:hover,
