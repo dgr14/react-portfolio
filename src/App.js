@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Styles/App/App.css';
-import View from './components/View.js'
+import View from './components/View/View.js'
 import Toolbar from './components/Toolbar/Toolbar'
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop'
