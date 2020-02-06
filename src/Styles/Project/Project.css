@@ -1,0 +1,29 @@
+@media all and (max-width: 500px) {
+  .project-container {
+    margin: 5pt auto;
+    padding: 1%;
+    height: 15%;
+    width: 80%;
+    background-color: #d3d3d3;
+    border-radius: 5pt;
+    border: 2pt solid #2f2f2f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .project-container ul {
+    background-color: #2f2f2f;
+    height: 25%;
+    width: 50%;
+  }
+  .project-container h4 {
+    margin: 0;
+  }
+}
+/*# sourceMappingURL=Project.css.map */

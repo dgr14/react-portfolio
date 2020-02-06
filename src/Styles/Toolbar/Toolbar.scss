@@ -22,6 +22,9 @@ $breakpoint-mobile : 500px;
     ul{
         display: none;
     }
+    .name-title{
+        font-size: 2rem;
+    }
 }
 
 // *********************** Tablet ***********************
@@ -53,12 +56,9 @@ $breakpoint-mobile : 500px;
     margin-left: 0.5rem;
     position: absolute;
 
-    
     a {
         color: $main-grey;
         text-decoration: none;
-        font-size: 1.5rem;
-
     }
 }
 

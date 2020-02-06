@@ -1,0 +1,44 @@
+// *** Variables ***
+// - All my variables for site colors
+$main-mint : #bbf3da;
+$light-mint : #f1fcf7;
+$main-grey : #2f2f2f;
+$light-grey : #d3d3d3;
+
+// - my Variables for media queries
+$breakpoint-mobile : 500px;
+// $breakpoint-tablet : ;
+// $breakpoint-desktop : ;
+
+// *********************** Mobile ***********************
+// - Mobile media query
+@media all and (max-width: $breakpoint-mobile) {
+    .project-container{
+        margin: 5pt auto;
+        padding: 1%;
+        height: 15%;
+        width: 80%;
+        background-color: $light-grey;
+        border-radius: 5pt;
+        border: 2pt solid $main-grey;
+
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        ul{
+            background-color: $main-grey;
+            height: 25%;
+            width: 50%;
+        }
+        
+        h4{
+            margin: 0;
+        }
+        // background-image: linear-gradient($light-mint, $light-grey, $light-mint);
+    }
+}
+
+// *********************** Tablet ***********************
+
+// *********************** Desktop ***********************

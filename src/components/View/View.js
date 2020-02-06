@@ -1,9 +1,14 @@
 import React from 'react'
+import '../../Styles/View/View.css'
+
+import Project from '../Project/Project.js'
 
 const View = () => {
     return(
         <div className='view'>
-            <p>This is the page content!</p>
+            <div className='view-spacer'/>
+            <Project title='CHCK' description='' image='' />
+            <Project title='' description='' image='' />
         </div>
     )
 }
