@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import './Styles/App.css';
+import './Styles/App/App.css';
 import View from './components/View.js'
 import Toolbar from './components/Toolbar/Toolbar'
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop'
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
 
@@ -36,7 +37,7 @@ class App extends Component {
         <main>
           <View />
         </main>
-        
+        <Footer />
       </div>
     );
   }

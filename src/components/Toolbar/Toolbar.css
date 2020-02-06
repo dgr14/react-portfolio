@@ -3,7 +3,6 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 56px;
   background-color: #f1fcf7;
 }
 
@@ -11,7 +10,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;

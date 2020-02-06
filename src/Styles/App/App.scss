@@ -7,7 +7,6 @@ $main-grey : #2f2f2f;
     background-color: $main-grey;
     display: flex;
     flex-direction: column;
-
 }
 
 // View
@@ -22,7 +21,11 @@ $main-grey : #2f2f2f;
 
 // Nav
 
-.nav{
-    height: 10%;
+nav{
+    height: 2rem;
     background-color: $light-mint;
+}
+
+main{
+    height: 100%;
 }

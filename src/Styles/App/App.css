@@ -24,8 +24,12 @@
           justify-content: center;
 }
 
-.nav {
-  height: 10%;
+nav {
+  height: 2rem;
   background-color: #f1fcf7;
+}
+
+main {
+  height: 100%;
 }
 /*# sourceMappingURL=App.css.map */
