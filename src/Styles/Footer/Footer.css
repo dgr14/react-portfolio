@@ -1,1 +1,24 @@
-/* No CSS *//*# sourceMappingURL=Footer.css.map */
+@media all and (max-width: 500px) {
+  .footer {
+    height: 7.5%;
+    background-color: #2f2f2f;
+  }
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer h1 {
+  color: #bbf3da;
+  margin: 0;
+}
+/*# sourceMappingURL=Footer.css.map */

@@ -1,23 +1,50 @@
+@media all and (max-width: 500px) {
+  .toolbar {
+    height: 7.5%;
+    background-color: #2f2f2f;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  ul {
+    display: none;
+  }
+}
+
+.name-title {
+  color: #bbf3da !important;
+}
+
 .toolbar {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #f1fcf7;
 }
 
 .toolbar__navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   padding: 0 1rem;
+  width: 100%;
 }
 
 .toolbar__logo {
   margin-left: 0.5rem;
+  position: absolute;
 }
 
 .toolbar__logo a {
@@ -46,7 +73,7 @@
 }
 
 .toolbar_navigation-items a {
-  color: white;
+  color: #f1fcf7;
   text-decoration: none;
 }
 

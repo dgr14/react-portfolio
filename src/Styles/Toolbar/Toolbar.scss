@@ -1,25 +1,59 @@
+// *** Variables ***
+// - All my variables for site colors
 $main-mint : #bbf3da;
 $light-mint : #f1fcf7;
 $main-grey : #2f2f2f;
+
+// - my Variables for media queries
+$breakpoint-mobile : 500px;
+// $breakpoint-tablet : ;
+// $breakpoint-desktop : ;
+
+// *********************** Mobile ***********************
+// - Mobile media query
+@media all and (max-width: $breakpoint-mobile) {
+    .toolbar{
+        height: 7.5%;
+        background-color: $main-grey;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    ul{
+        display: none;
+    }
+}
+
+// *********************** Tablet ***********************
+
+// *********************** Desktop ***********************
+
+.name-title{
+    color: $main-mint !important;
+    // position: absolute;
+}
 
 .toolbar{
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    // height: 56px;
-    background-color: $light-mint;
 }
 
 .toolbar__navigation {
     display: flex;
-    // height: 100%;
+    justify-content: center;
     align-items: center;
     padding: 0 1rem;
+    width: 100%
+
 }
 
 .toolbar__logo  {
     margin-left: 0.5rem;
+    position: absolute;
+
+    
     a {
         color: $main-grey;
         text-decoration: none;
@@ -41,9 +75,10 @@ $main-grey : #2f2f2f;
     }
     li {
         padding: 0 0.5rem;
+        
     }
     a {
-        color: white;
+        color: $light-mint;
         text-decoration: none;
     }
     a:hover, a:active{

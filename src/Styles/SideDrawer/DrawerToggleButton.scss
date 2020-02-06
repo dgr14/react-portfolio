@@ -1,8 +1,28 @@
+// *** Variables ***
+// - All my variables for site colors
+
 $main-mint : #bbf3da;
 $light-mint : #f1fcf7;
 $main-grey : #2f2f2f;
 
+// - my Variables for media queries
+$breakpoint-mobile : 500px;
+// $breakpoint-tablet : ;
+// $breakpoint-desktop : ;
+
+// *********************** Mobile ***********************
+// - Mobile media query
+@media all and (max-width: $breakpoint-mobile) {
+    .toolbar__toggle-button{
+    }
+}
+
+// *********************** Tablet ***********************
+
+// *********************** Desktop ***********************
+
 .toggle-button {
+    // position: absolute;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -20,8 +40,9 @@ $main-grey : #2f2f2f;
 
 }
 
+
 .toggle-button__line {
     width: 30px;
     height: 1.5px;
-    background: $main-grey;
+    background: $main-mint;
 }
