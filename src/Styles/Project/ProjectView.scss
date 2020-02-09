@@ -1,0 +1,20 @@
+// *** Variables ***
+// - All my variables for site colors
+$main-mint : #bbf3da;
+$light-mint : #f1fcf7;
+$main-grey : #2f2f2f;
+
+// - my Variables for media queries
+$breakpoint-mobile : 500px;
+// $breakpoint-tablet : ;
+// $breakpoint-desktop : ;
+
+// *********************** Mobile ***********************
+// - Mobile media query
+@media all and (max-width: $breakpoint-mobile) {
+
+}
+
+// *********************** Tablet ***********************
+
+// *********************** Desktop ***********************
