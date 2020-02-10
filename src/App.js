@@ -6,7 +6,7 @@ import Toolbar from './components/Toolbar/Toolbar'
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop'
 import Footer from './components/Footer/Footer';
-import ProjectView from './components/Project/ProjectView';
+import ProjectExpanded from './components/Project/ProjectExpanded';
 
 class App extends Component {
 
@@ -33,15 +33,17 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Switch>
-          <Route exact path='/' Component={App} />
-          <Route path='/ProjectView' Component={ProjectView} />
-        </Switch>
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
         <SideDrawer show={this.state.sideDrawerOpen}/>
         {backdrop}
         <main>
-          <View />
+
+          <Switch>
+            <Route exact path='/home' component={View} />
+            <Route path='/projects' component={ProjectExpanded} />
+            <Route path='/projectview' component={ProjectExpanded} />
+          </Switch>
+          
         </main>
         <Footer />
       </div>

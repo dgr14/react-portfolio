@@ -1,7 +1,6 @@
 import React from 'react'
 import '../../Styles/Project/Project.css'
-// import { render } from '@testing-library/react'
-import ProjectView from './ProjectView.js'
+import ProjectView from './ProjectExpanded.js'
 
 // showProjectView = () => {
 //     this.props.history.push('/ProjectView')

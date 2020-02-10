@@ -2,7 +2,8 @@
 // - All my variables for site colors
 $main-mint : #bbf3da;
 $light-mint : #f1fcf7;
-$main-grey : #2f2f2f;
+$main-grey : #000000;
+$second-grey : #3e3e3e;
 
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
@@ -29,7 +30,7 @@ $breakpoint-mobile : 500px;
 
 .view{
     height: 100%;
-    background-color: $light-mint;
+    background-color: $second-grey;
     overflow: hidden;
 
 }

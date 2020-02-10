@@ -7,8 +7,11 @@ const View = () => {
     return(
         <div className='view'>
             <div className='view-spacer'/>
-            <Project title='CHCK' description='' image='' />
-            <Project title='' description='' image='' />
+
+            <img />
+
+            {/* <Project title='CHCK' description='' image='' />
+            <Project title='' description='' image='' /> */}
         </div>
     )
 }
