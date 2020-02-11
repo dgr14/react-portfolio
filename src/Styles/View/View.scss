@@ -3,6 +3,7 @@
 $main-mint : #bbf3da;
 $light-mint : #f1fcf7;
 $main-grey : #000000;
+$view-grey : #242424;
 
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
@@ -19,13 +20,18 @@ $breakpoint-mobile : 500px;
             // display: block;
             // height: 1px;
             width: 100%;
+
+        }
+        h1{
+            color: white;
         }
         
         display: flex;
         flex-direction: column;
         // justify-content: center;
         align-items: center;
-
+        background-color: $view-grey;
+        
     }
     
 

@@ -2,7 +2,8 @@
 // - All my variables for site colors
 $main-mint : #bbf3da;
 $light-mint : #f1fcf7;
-$main-grey : #2f2f2f;
+$main-grey : #000000;
+
 
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
@@ -15,6 +16,9 @@ $breakpoint-mobile : 500px;
     .footer{
         height: 7.5%;
         background-color: $main-grey;
+        svg{
+            margin: 0 0.5rem;
+        }
 
     }
 }
@@ -23,10 +27,4 @@ $breakpoint-mobile : 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    h1{
-        color: $main-mint;
-        margin: 0;
-        
-    }
 }

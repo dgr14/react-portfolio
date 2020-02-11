@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom'
 import './Styles/App/App.css';
+
+import AboutMe from './components/AboutMe/AboutMe'
 import View from './components/View/View.js'
 import Toolbar from './components/Toolbar/Toolbar'
 import SideDrawer from './components/SideDrawer/SideDrawer';
@@ -40,10 +42,11 @@ class App extends Component {
 
           <Switch>
             <Route exact path='/home' component={View} />
+            <Route path='/about' component={AboutMe} />
             <Route path='/projects' component={ProjectExpanded} />
             <Route path='/projectview' component={ProjectExpanded} />
           </Switch>
-          
+
         </main>
         <Footer />
       </div>

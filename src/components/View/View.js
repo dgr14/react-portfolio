@@ -7,8 +7,8 @@ const View = () => {
     return(
         <div className='view'>
             <div className='view-spacer'/>
-
-            <img />
+                <h1>Page Content</h1>
+            
 
             {/* <Project title='CHCK' description='' image='' />
             <Project title='' description='' image='' /> */}

@@ -10,10 +10,14 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    background-color: #242424;
   }
   .view .view-spacer {
     margin-top: 60pt;
     width: 100%;
+  }
+  .view h1 {
+    color: white;
   }
 }
 /*# sourceMappingURL=View.css.map */

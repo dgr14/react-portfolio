@@ -1,7 +1,7 @@
 @media all and (max-width: 500px) {
   .toolbar {
     height: 7.5%;
-    background-color: #2f2f2f;
+    background-color: #000000;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -50,7 +50,7 @@
 }
 
 .toolbar__logo a {
-  color: #2f2f2f;
+  color: #000000;
   text-decoration: none;
 }
 

@@ -1,7 +1,10 @@
 @media all and (max-width: 500px) {
   .footer {
     height: 7.5%;
-    background-color: #2f2f2f;
+    background-color: #000000;
+  }
+  .footer svg {
+    margin: 0 0.5rem;
   }
 }
 
@@ -15,10 +18,5 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.footer h1 {
-  color: #bbf3da;
-  margin: 0;
 }
 /*# sourceMappingURL=Footer.css.map */
