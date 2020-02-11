@@ -4,6 +4,7 @@ $main-mint : #bbf3da;
 $light-mint : #f1fcf7;
 $main-grey : #2f2f2f;
 $light-grey : #d3d3d3;
+$project-grey : #242424;
 
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
@@ -13,18 +14,29 @@ $breakpoint-mobile : 500px;
 // *********************** Mobile ***********************
 // - Mobile media query
 @media all and (max-width: $breakpoint-mobile) {
-    .project-container{
-        margin: 5pt auto;
+    .project-view{
+        margin: 45pt auto 0 auto;
         padding: 1%;
-        height: 15%;
-        width: 80%;
-        background-color: $light-grey;
-        border-radius: 5pt;
-        border: 2pt solid $main-grey;
-
+        height: 92.5%;
+        width: 90%;
+        
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
+
+        .project-container{
+            height: 20%;
+            width: 100%;
+            background-color: $project-grey;
+            border-radius: 5pt;
+            border: 2pt solid $main-grey;
+        }
+
+
+        h1{
+            color: white;
+            
+        }
 
         ul{
             background-color: $main-grey;

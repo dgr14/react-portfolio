@@ -9,6 +9,7 @@ import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop'
 import Footer from './components/Footer/Footer';
 import ProjectExpanded from './components/Project/ProjectExpanded';
+import Project from './components/Project/Project';
 
 class App extends Component {
 
@@ -43,7 +44,7 @@ class App extends Component {
           <Switch>
             <Route exact path='/home' component={View} />
             <Route path='/about' component={AboutMe} />
-            <Route path='/projects' component={ProjectExpanded} />
+            <Route path='/projects' component={Project} />
             <Route path='/projectview' component={ProjectExpanded} />
           </Switch>
 

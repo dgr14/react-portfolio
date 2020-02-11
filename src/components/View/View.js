@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../Styles/View/View.css'
 
-import Project from '../Project/Project.js'
+// import Project from '../Project/Project.js'
 
 const View = () => {
     return(

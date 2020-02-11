@@ -10,13 +10,17 @@ import ProjectView from './ProjectExpanded.js'
 const Project = props => {
     const {title, description, image} = props
     return(
-        <div onClick={() => <ProjectView />} className='project-container'>
-            <img src={image} />
-            <h2>{title}</h2>
-            <ul className='project-list'>
-                <li><p>A bill splitting application</p></li>
-            </ul>
-            
+        <div className='project-view'>
+            <div onClick={() => <ProjectView />} className='project-container'>
+                {/* <img src={image} />
+                <h2>{title}</h2>
+                <ul className='project-list'>
+                    <li><p>A bill splitting application</p></li>
+                </ul> */}
+
+                <h1>Project</h1>
+                
+            </div>
         </div>
     )
 }
