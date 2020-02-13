@@ -4,27 +4,40 @@ $main-mint : #bbf3da;
 $light-mint : #f1fcf7;
 $main-grey : #000000;
 
-
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
 // $breakpoint-tablet : ;
 // $breakpoint-desktop : ;
 
-// *** Media Queries ***
+
+// *********************** Desktop ***********************
+    .footer{
+        height: 10%;
+        border-top: 1px solid $light-mint;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        svg {
+            margin: 0 1rem;
+            height: 30px;
+            width: 30px;
+        }
+    }
+    
+
+// *********************** Tablet *********************** 
+
+// *********************** Mobile ***********************
 // - Mobile media query
+
 @media all and (max-width: $breakpoint-mobile) {
     .footer{
         height: 7.5%;
         background-color: $main-grey;
-        svg{
+        svg {
             margin: 0 0.5rem;
         }
 
     }
-}
-
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }

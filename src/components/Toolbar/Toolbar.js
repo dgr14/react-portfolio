@@ -11,9 +11,12 @@ const toolbar = props => (
             <div className='toolbar__logo'><a className='name-title' href='/'>Darius Raazi</a></div>
             <div className='spacer' />
             <div className='toolbar__navigation-items'>
-                <ul>
-                    <li><a className='nav-li projects' href='/'>Projects</a></li>
-                    <li><a className='nav-li experience' href='/'>Experience</a></li>
+                <ul className='toolbar-links'>
+                    <li><a href='/'>Home</a></li>
+                    <li><a href='/about'>About Me</a></li>
+                    <li><a href='/projects'>Projects</a></li>
+                    <li><a href='/skills'>Skills</a></li>
+                    <li><a href='/contact'>Contact Me</a></li>
                 </ul>
             </div>
         </nav>

@@ -9,6 +9,16 @@ $breakpoint-mobile : 500px;
 // $breakpoint-tablet : ;
 // $breakpoint-desktop : ;
 
+// *********************** Desktop ***********************
+
+@media (min-width: 769px) {
+    .side-drawer{
+        display: none;
+    }
+}
+
+// *********************** Tablet ***********************
+
 // *********************** Mobile ***********************
 // - Mobile media query
 @media all and (max-width: $breakpoint-mobile) {
@@ -51,13 +61,13 @@ $breakpoint-mobile : 500px;
         }
     
         li {
-            margin: 0.5rem 0;
+            margin: 1.5rem 0;
         }
     
         a {
             color: $main-grey;
             text-decoration: none;
-            font-size: 1.2rem;
+            font-size: 1.5rem;
         }
     
         a:hover, a:active {
@@ -70,16 +80,4 @@ $breakpoint-mobile : 500px;
         transform: translateX(0);
     }
     
-}
-
-// *********************** Tablet ***********************
-
-// *********************** Desktop ***********************
-
-
-
-@media (min-width: 769px) {
-    .side-drawer{
-        display: none;
-    }
 }

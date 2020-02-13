@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { Suspense } from 'react'
 import '../../Styles/Project/ProjectExpanded.css'
 
 
 const ProjectExpanded = props => {
     return(
-        <div className='project-expanded'>
+        <Suspense>
+            <div className='project-expanded'>
 
 
-        </div>
+            </div>
+        </Suspense>
     )
 }
  export default ProjectExpanded

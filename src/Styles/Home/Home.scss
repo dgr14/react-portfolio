@@ -1,0 +1,81 @@
+// *** Variables ***
+// - All my variables for site colors
+$main-mint : #bbf3da;
+$light-mint : #f1fcf7;
+$main-grey : #000000;
+$view-grey : #242424;
+
+// - my Variables for media queries
+$breakpoint-mobile : 500px;
+// $breakpoint-tablet : ;
+// $breakpoint-desktop : ;
+
+// *********************** Desktop ***********************
+
+.home-page {
+    height: 100%;
+
+    .home-spacer {
+        padding: 1.7rem;
+    }
+    .home-content {
+
+        .landing-content {
+            img {
+                border: solid ;
+            }
+        }
+
+        ul.main-home-info {
+
+            lh {
+                font-size: 1.5rem;
+            }
+
+            h1{
+                color: $main-mint;
+                margin: 1rem;
+            }
+            li {
+                margin: 0.5rem 0rem 0.5rem 4rem;
+            }
+            p {
+                color: $light-mint;
+                
+            }
+
+        }
+
+        
+    }
+    
+}
+
+// *********************** Tablet ***********************
+
+// *********************** Mobile ***********************
+// - Mobile media query
+@media all and (max-width: $breakpoint-mobile) {
+
+    .home-page{
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+        background-color: $view-grey;
+
+        .home-spacer{
+            margin-top: 60pt;
+            // display: block;
+            // height: 1px;
+            width: 100%;
+
+            
+        }
+
+        h1{
+            color: white;
+            
+        }
+    }
+}

@@ -1,25 +1,3 @@
-@media all and (max-width: 500px) {
-  .toolbar {
-    height: 7.5%;
-    background-color: #000000;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  ul {
-    display: none;
-  }
-  .name-title {
-    font-size: 2rem;
-  }
-}
-
 .name-title {
   color: #bbf3da !important;
 }
@@ -28,7 +6,9 @@
   position: fixed;
   top: 0;
   left: 0;
+  height: 10%;
   width: 100%;
+  border-bottom: 1px solid #f1fcf7;
 }
 
 .toolbar__navigation {
@@ -42,6 +22,7 @@
       -ms-flex-align: center;
           align-items: center;
   padding: 0 1rem;
+  height: 100%;
   width: 100%;
 }
 
@@ -49,9 +30,10 @@
   position: absolute;
 }
 
-.toolbar__logo a {
+.toolbar__logo a.name-title {
   color: #000000;
   text-decoration: none;
+  font-size: 2rem;
 }
 
 .spacer {
@@ -60,7 +42,7 @@
           flex: 1;
 }
 
-.toolbar_navigation-items ul {
+.toolbar__navigation-items ul.toolbar-links {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -69,17 +51,17 @@
   display: flex;
 }
 
-.toolbar_navigation-items li {
+.toolbar__navigation-items li {
   padding: 0 0.5rem;
 }
 
-.toolbar_navigation-items a {
+.toolbar__navigation-items a {
   color: #f1fcf7;
   text-decoration: none;
 }
 
-.toolbar_navigation-items a:hover, .toolbar_navigation-items a:active {
-  color: red;
+.toolbar__navigation-items a:hover, .toolbar__navigation-items a:active {
+  color: #bbf3da;
 }
 
 @media (max-width: 768px) {
@@ -94,6 +76,28 @@
   }
   .toolbar__logo {
     margin-left: 0;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .toolbar {
+    height: 7.5%;
+    background-color: #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  ul.toolbar-links {
+    display: none !important;
+  }
+  .name-title {
+    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=Toolbar.css.map */

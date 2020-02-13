@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAmBA,MAAM,CAAC,GAAG,MAAM,SAAS,EAAE,KAAK;EAC5B,AAAA,WAAW,CAAA;IACP,MAAM,EAAE,IAAI;IACZ,gBAAgB,EAlBX,OAAO;GAmBf",
+    "sources": [
+        "SkillPage.scss"
+    ],
+    "names": [],
+    "file": "SkillPage.css"
+}

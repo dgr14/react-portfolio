@@ -2,7 +2,8 @@
 // - All my variables for site colors
 $main-mint : #bbf3da;
 $light-mint : #f1fcf7;
-$main-grey : #2f2f2f;
+$main-grey : #000000;
+$second-grey : #3e3e3e;
 
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
@@ -11,11 +12,29 @@ $breakpoint-mobile : 500px;
 
 // *********************** Desktop ***********************
 
+    .loading-page {
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1 {
+            color: $main-mint;
+        }
+    }
+
 // *********************** Tablet ***********************
 
 // *********************** Mobile ***********************
 
 // - Mobile media query
 @media all and (max-width: $breakpoint-mobile) {
-
+    .loading-page {
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+        color: $main-mint;
+        background-color: red;
+    }
 }

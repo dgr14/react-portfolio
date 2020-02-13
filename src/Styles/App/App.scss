@@ -10,14 +10,6 @@ $breakpoint-mobile : 500px;
 // $breakpoint-tablet : ;
 // $breakpoint-desktop : ;
 
-// *********************** Mobile ***********************
-// - Mobile media query
-@media all and (max-width: $breakpoint-mobile) {
-
-}
-
-// *********************** Tablet ***********************
-
 // *********************** Desktop ***********************
 .App {
     height: 100%;
@@ -28,7 +20,7 @@ $breakpoint-mobile : 500px;
 
 // *** View ***
 
-.view{
+.view {
     height: 100%;
     background-color: $second-grey;
     overflow: hidden;
@@ -37,14 +29,21 @@ $breakpoint-mobile : 500px;
 
 // *** Toolbar ***
 
-nav{
-    height: 10%;
+nav {
+    // height: 15%;
     background-color: $main-grey;
 }
 
-main{
+main {
     height: 100%;
 }
 
+// *********************** Tablet ***********************
 
-
+// *********************** Mobile ***********************
+// - Mobile media query
+@media all and (max-width: $breakpoint-mobile) {
+    nav{
+        // height: 10%
+    }
+}

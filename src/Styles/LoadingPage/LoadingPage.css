@@ -1,6 +1,7 @@
-.footer {
-  height: 10%;
-  border-top: 1px solid #f1fcf7;
+.loading-page {
+  height: 100%;
+  width: 100%;
+  z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12,19 +13,17 @@
           align-items: center;
 }
 
-.footer svg {
-  margin: 0 1rem;
-  height: 30px;
-  width: 30px;
+.loading-page h1 {
+  color: #bbf3da;
 }
 
 @media all and (max-width: 500px) {
-  .footer {
-    height: 7.5%;
-    background-color: #000000;
-  }
-  .footer svg {
-    margin: 0 0.5rem;
+  .loading-page {
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    color: #bbf3da;
+    background-color: red;
   }
 }
-/*# sourceMappingURL=Footer.css.map */
+/*# sourceMappingURL=LoadingPage.css.map */
