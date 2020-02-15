@@ -7,8 +7,8 @@ $main-grey : #000000;
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
 // $breakpoint-tablet : ;
+$breakpoint-laptop : 1100px;
 // $breakpoint-desktop : ;
-
 
 // *********************** Desktop ***********************
 
@@ -93,6 +93,26 @@ $breakpoint-mobile : 500px;
 // .toolbar_navigation-items a:active {
 //     color: red;
 // }
+
+// *********************** Laptop - 13" ***********************
+
+@media all and (max-width: $breakpoint-laptop) {
+    .toolbar {
+        nav.toolbar__navigation {
+            
+            .toolbar__toggle-button {
+                display: none
+            }
+            .toolbar__logo {
+                position: relative;
+                
+                a.name-title {
+                    
+                }
+            }
+        }
+    }
+}
 
 // *********************** Tablet ***********************
 

@@ -7,6 +7,7 @@ $main-grey : #000000;
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
 // $breakpoint-tablet : ;
+$breakpoint-laptop : 1100px;
 // $breakpoint-desktop : ;
 
 
@@ -24,7 +25,28 @@ $breakpoint-mobile : 500px;
             width: 30px;
         }
     }
-    
+
+
+// *********************** Laptop *********************** 
+
+@media all and (max-width: $breakpoint-laptop) {
+    .footer {
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        svg {
+            margin: 0 0.75rem;
+            height: 25px;
+            width: 25px;
+            :hover{
+                color: $light-mint;
+            }
+        }
+    }
+}
 
 // *********************** Tablet *********************** 
 

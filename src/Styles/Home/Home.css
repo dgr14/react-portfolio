@@ -27,6 +27,12 @@
   color: #f1fcf7;
 }
 
+@media all and (max-width: 1100px) {
+  .home-page .home-spacer {
+    padding: 1.2rem;
+  }
+}
+
 @media all and (max-width: 500px) {
   .home-page {
     display: -webkit-box;

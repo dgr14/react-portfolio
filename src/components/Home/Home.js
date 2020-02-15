@@ -18,10 +18,9 @@ const View = () => {
                         <lh><h1>Web Developer</h1></lh>
                         <li><p>Currently living in Salt Lake City, UT</p></li>
                         <li><p> I develop mainly using the MERN Stack</p></li>
-                        <li><p>I've worked extensively across multiple industies <br />
-                         on both coasts of the US</p></li>
+                        <li><p>Currently working on a mobile web application, CHCK</p></li>
                         <li><p></p></li>
-                        
+
                     </ul>
                 </div>
                 

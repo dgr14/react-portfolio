@@ -9,7 +9,7 @@ import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop'
 import Footer from './components/Footer/Footer';
 import ProjectExpanded from './components/Project/ProjectExpanded';
-import Project from './components/Project/Project';
+import ProjectPage from './components/Project/ProjectPage'
 import SkillPage from './components/Skills/SkillPage';
 import LoadingPage from './components/LoadingPage/LoadingPage'
 
@@ -48,7 +48,7 @@ class App extends Component {
               <Route exact path='/' component={Home} />
               <Route path='/about' component={AboutMe} />
 
-              <Route path='/projects' component={Project} />
+              <Route path='/projects' component={ProjectPage} />
               <Route path='/projectview' component={ProjectExpanded} />
 
               <Route path='/skills' component={SkillPage} />
