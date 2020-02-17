@@ -2,20 +2,30 @@
 // - All my variables for site colors
 $main-mint : #bbf3da;
 $light-mint : #f1fcf7;
-$main-grey : #2f2f2f;
+$main-grey : #000000;
 
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
-// $breakpoint-tablet : ;
-// $breakpoint-desktop : ;
+$breakpoint-tablet : 650px;
+$breakpoint-laptop : 1100px;
+$breakpoint-desktop : 1600px;
 
 // *********************** Desktop ***********************
+@media all and (max-width: $breakpoint-desktop) {
+
+}
+
+// *********************** Laptop ***********************
+@media all and (max-width: $breakpoint-laptop) {
+    
+}
 
 // *********************** Tablet ***********************
+@media all and (max-width: $breakpoint-tablet){
+
+}
 
 // *********************** Mobile ***********************
-
-// - Mobile media query
 @media all and (max-width: $breakpoint-mobile) {
 
 }

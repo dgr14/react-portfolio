@@ -1,16 +1,15 @@
-import React, { Suspense } from 'react'
+import React from 'react'
 import '../../Styles/AboutMe/AboutMe.css'
 
-import LoadingPage from '../LoadingPage/LoadingPage.js'
+// import LoadingPage from '../LoadingPage/LoadingPage.js'
 
 const AboutMe = () => {
     return(
-        <Suspense fallback={ <LoadingPage /> }>
-            <div className='about-me'>
+        <div className='about-me'>
+            <div className='about-me-spacer'/>
             <h1>About Me</h1>
-            <p>An Avid Liverpool fan, born </p>
-            </div>
-        </Suspense>
+            <p>An Avid Liverpool fan </p>
+        </div>
     )
 }
 

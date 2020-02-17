@@ -2,14 +2,51 @@
 // - All my variables for site colors
 $main-mint : #bbf3da;
 $light-mint : #f1fcf7;
-$main-grey : #2f2f2f;
+$main-grey : #3f3f2f;
 $light-grey : #d3d3d3;
-$project-grey : #242424;
+$project-grey : black;
 
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
 // $breakpoint-tablet : ;
+$breakpoint-laptop : 1100px;
 // $breakpoint-desktop : ;
+
+// *********************** Desktop ***********************
+
+// *********************** Laptop ***********************
+
+@media all and (max-width: $breakpoint-laptop) {
+    .project-view {
+        height: 100%;
+        // background-image: linear-gradient($project-grey, $main-grey, $project-grey);
+        border-bottom: 0.25px solid $light-mint;
+        border-right: 1px solid $light-mint;
+        width: 35%;
+        padding: 0 0.25rem 0 0.25rem;
+
+        .project-container {
+            
+            h2 {
+                color: $main-mint;
+                font-weight: 300;
+            }
+
+            ul.project-list {
+                // list-style-type: disc;
+                li{
+                    padding-left: 0.5rem;
+                    color: $light-mint;
+                    p{
+                        font-size: 0.55rem; 
+                    }
+                }
+            }
+        }
+    }
+}
+
+// *********************** Tablet ***********************
 
 // *********************** Mobile ***********************
 // - Mobile media query
@@ -30,12 +67,11 @@ $breakpoint-mobile : 500px;
             background-color: $project-grey;
             border-radius: 5pt;
             border: 2pt solid $main-grey;
-        }
 
-
-        h1{
-            color: white;
-            
+            h1{
+                color: $light-mint;
+                
+            }
         }
 
         ul{
@@ -50,7 +86,3 @@ $breakpoint-mobile : 500px;
         // background-image: linear-gradient($light-mint, $light-grey, $light-mint);
     }
 }
-
-// *********************** Tablet ***********************
-
-// *********************** Desktop ***********************

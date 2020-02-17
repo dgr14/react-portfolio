@@ -1,1 +1,17 @@
-/* No CSS *//*# sourceMappingURL=AboutMe.css.map */
+@media all and (max-width: 1100px) {
+  .about-me {
+    padding: 0 1rem;
+  }
+  .about-me .about-me-spacer {
+    padding: 1.3rem;
+  }
+  .about-me h1 {
+    color: #f1fcf7;
+    font-weight: 300;
+  }
+  .about-me p {
+    color: #f1fcf7;
+    padding-left: 1rem;
+  }
+}
+/*# sourceMappingURL=AboutMe.css.map */

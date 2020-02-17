@@ -13,8 +13,8 @@ $breakpoint-laptop : 1100px;
 
 // *********************** Desktop ***********************
     .footer{
-        height: 10%;
-        border-top: 1px solid $light-mint;
+        height: 7.5%;
+        border-top: 2px solid $light-mint;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -39,8 +39,9 @@ $breakpoint-laptop : 1100px;
 
         svg {
             margin: 0 0.75rem;
-            height: 25px;
-            width: 25px;
+            height: 22.5px;
+            width: 22.5px;
+
             :hover{
                 color: $light-mint;
             }

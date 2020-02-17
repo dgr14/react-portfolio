@@ -8,9 +8,11 @@ $main-grey : #000000;
 $breakpoint-mobile : 500px;
 // $breakpoint-tablet : ;
 $breakpoint-laptop : 1100px;
-// $breakpoint-desktop : ;
+$breakpoint-desktop : 1600px;
 
 // *********************** Desktop ***********************
+@media all and (max-width: $breakpoint-desktop) {
+    
 
 .name-title{
     color: $main-mint !important;
@@ -23,7 +25,7 @@ $breakpoint-laptop : 1100px;
     left: 0;
     height: 10%;
     width: 100%;
-    border-bottom: 1px solid $light-mint;
+    border-bottom: 2px solid $light-mint;
 }
 
 .toolbar__navigation {
@@ -32,7 +34,7 @@ $breakpoint-laptop : 1100px;
     align-items: center;
     padding: 0 1rem;
     height: 100%;
-    width: 100%
+    width: 100%;
 
 }
 
@@ -76,7 +78,7 @@ $breakpoint-laptop : 1100px;
 
 @media (max-width: 768px){
     .toolbar_navigation-items{
-        display: none
+        display: none;
     }
 }
 
@@ -93,15 +95,17 @@ $breakpoint-laptop : 1100px;
 // .toolbar_navigation-items a:active {
 //     color: red;
 // }
-
+}
 // *********************** Laptop - 13" ***********************
 
 @media all and (max-width: $breakpoint-laptop) {
     .toolbar {
+        height: 7.5%;
+
         nav.toolbar__navigation {
             
             .toolbar__toggle-button {
-                display: none
+                display: none;
             }
             .toolbar__logo {
                 position: relative;

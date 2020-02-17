@@ -11,7 +11,7 @@ const View = () => {
                 <div className='home-spacer'/>
                 <div className='home-content'>
                     <div className='landing-content'>
-                        <img />
+                        {/* <img /> */}
 
                     </div>
                     <ul className='main-home-info'>

@@ -2,15 +2,102 @@
 // - All my variables for site colors
 $main-mint : #bbf3da;
 $light-mint : #f1fcf7;
-$main-grey : #2f2f2f;
+$main-grey : #000000;
 $view-grey : #2c2c2c;
+$line-grey : linear-gradient(to right, $light-mint, $main-mint);
 
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
 // $breakpoint-tablet : ;
+$breakpoint-laptop : 1100px;
 // $breakpoint-desktop : ;
 
 // *********************** Desktop ***********************
+
+// *********************** Laptop ***********************
+
+@media all and (max-width: $breakpoint-laptop) {
+    .skill-page{
+        height: 100%;
+        background-color: $main-grey;
+        overflow-y: auto;
+
+        .skill-spacer {
+            padding: 1.3rem;
+        }
+
+        // holds all info on skill-page
+        .skill-container {
+            .title-holder {
+                width: 100%;
+                height: 1.70rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-bottom: 2px solid $view-grey;
+
+                h1 {
+                    
+                    color: $main-mint;
+                }
+            }
+            // this is to change the bullet color
+            ul p::before{
+                content: "\2022"; // Add content: \2022 is the CSS Code/unicode for a bullet
+                color: $light-mint;
+                // font-weight: bold;
+                padding-right: 0.5rem;
+                // display: inline-block; // adds space between the bullets and the text
+            }
+
+            lh{
+                color: $main-mint;
+                padding-left: 2rem;
+                font-size: 1.25rem;
+            }
+
+            li {
+                color: $light-mint;
+                padding-left: 4rem;
+            }
+
+            
+            ul.list{
+                // this changes the styling of all lh links
+                lh {
+                    a:link {
+                        text-decoration: none;
+                        color: $main-mint;
+                    }
+                    a:hover {
+                        color: transparent;
+                        -webkit-text-stroke: 0.5px $main-mint;
+                    }
+                    a:visited {
+                        color: $main-mint;
+                        text-decoration: none;
+                    }
+                }
+                // Effects all list items on page
+                .items {
+                    padding-top: 0.25rem;
+
+                    
+                    
+                }
+                
+                .line-gradient {
+                    height: 2px;
+                    width: 100%;
+                    // background-color: red;
+                    background-image: $line-grey;
+                }
+            }
+
+            
+        }
+    }
+}
 
 // *********************** Tablet ***********************
 
@@ -18,8 +105,5 @@ $breakpoint-mobile : 500px;
 
 // - Mobile media query
 @media all and (max-width: $breakpoint-mobile) {
-    .skill-page{
-        height: 100%;
-        background-color: $main-grey;
-    }
+    
 }

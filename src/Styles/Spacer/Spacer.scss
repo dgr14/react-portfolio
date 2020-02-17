@@ -3,56 +3,39 @@
 $main-mint : #bbf3da;
 $light-mint : #f1fcf7;
 $main-grey : #000000;
-$second-grey : #3e3e3e;
 
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
-// $breakpoint-tablet : ;
+$breakpoint-tablet : 650px;
 $breakpoint-laptop : 1100px;
-// $breakpoint-desktop : ;
+$breakpoint-desktop : 1600px;
 
 // *********************** Desktop ***********************
-.App {
-    height: 100%;
-    background-color: $main-grey;
-    display: flex;
-    flex-direction: column;
-}
-
-// *** View ***
-
-.view {
-    height: 100%;
-    background-color: $second-grey;
-    overflow: hidden;
-
-}
-
-// *** Toolbar ***
-
-nav {
-    // height: 10%;
-    background-color: $main-grey;
-}
-
-main {
-    height: 100%;
+@media all and (max-width: $breakpoint-desktop) {
+    .spacer{
+        
+    }
 }
 
 // *********************** Laptop ***********************
-
 @media all and (max-width: $breakpoint-laptop) {
-    main {
-        height: 92.5%;
+    .spacer-component{
+        height: 0;
+        width: 0;
+        padding: 1rem;
     }
 }
 
 // *********************** Tablet ***********************
+@media all and (max-width: $breakpoint-tablet){
+    .spacer{
+        
+    }
+}
 
 // *********************** Mobile ***********************
-// - Mobile media query
 @media all and (max-width: $breakpoint-mobile) {
-    nav{
-        // height: 10%
+    .spacer{
+        
     }
 }

@@ -2,21 +2,42 @@
 // - All my variables for site colors
 $main-mint : #bbf3da;
 $light-mint : #f1fcf7;
-$main-grey : #2f2f2f;
+$main-grey : #000000;
 
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
 // $breakpoint-tablet : ;
+$breakpoint-laptop : 1100px;
 // $breakpoint-desktop : ;
 
 // *********************** Desktop ***********************
 
+// *********************** Laptop ***********************
 
+@media all and (max-width: $breakpoint-laptop) {
+    .about-me {
+        padding: 0 1rem;
+        .about-me-spacer {
+            padding: 1.3rem;
+        }
+
+        h1 {
+            color: $light-mint;
+            font-weight: 300;
+        
+        }
+
+        p {
+            color: $light-mint;
+            padding-left: 1rem;
+        }
+
+    }
+}
 
 // *********************** Tablet ***********************
 
 // *********************** Mobile ***********************
-
 // - Mobile media query
 @media all and (max-width: $breakpoint-mobile) {
 
