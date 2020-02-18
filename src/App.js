@@ -43,7 +43,7 @@ class App extends Component {
           <SideDrawer show={this.state.sideDrawerOpen}/>
           {backdrop}
           <main>
-
+          {/* Main is the container that switches pages */}
             <Switch>
               <Route exact path='/' component={Home} />
               <Route path='/about' component={AboutMe} />

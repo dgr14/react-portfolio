@@ -24,6 +24,24 @@
   .skill-page .skill-container .title-holder h1 {
     color: #bbf3da;
   }
+  .skill-page .skill-container .programming .programming-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  .skill-page .skill-container .programming .programming-flex .text-container {
+    width: 30%;
+  }
+  .skill-page .skill-container .programming .programming-flex .skill-image-container {
+    height: 100%;
+    width: 70%;
+    border-left: 1px solid #bbf3da;
+  }
   .skill-page .skill-container ul p::before {
     content: "\2022";
     color: #f1fcf7;

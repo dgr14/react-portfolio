@@ -4,7 +4,7 @@
   }
   .project-page .project-title {
     width: 100%;
-    height: 2.5rem;
+    height: 2rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -14,7 +14,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    border-bottom: 1px solid #f1fcf7;
+    border-bottom: 2px solid #f1fcf7;
   }
   .project-page .project-title h1 {
     color: #bbf3da;

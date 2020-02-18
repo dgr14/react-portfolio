@@ -2,11 +2,13 @@ import React from 'react'
 import '../../Styles/Project/ProjectPage.css'
 
 import Project from './Project'
+import Spacer from '../Spacer/Spacer'
 
 const ProjectPage = () => {
     return(
         <div className='project-page'>
-            <div className='project-spacer'/>
+            {/* <div className='project-spacer'/> */}
+            <Spacer />
             <div className='project-title'>
                 <h1>My Projects</h1>
             </div>
@@ -18,8 +20,6 @@ const ProjectPage = () => {
                 <li><Project title='Premier League App' description='Displays soccer data with axios calls to a 3rd party api'/></li>
 
             </ul>
-
-
 
             {/* <Project /> */}
 

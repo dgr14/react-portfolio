@@ -1,0 +1,9 @@
+@media all and (max-width: 1100px) {
+  .image-container img {
+    height: 100px;
+    width: 100px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+/*# sourceMappingURL=SkillImageContainer.css.map */
