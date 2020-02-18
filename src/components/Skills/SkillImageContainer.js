@@ -34,10 +34,10 @@ const SkillImageContainer = () => {
             <DevIcon icon='html5' style={deviconStyle} />
             <DevIcon icon='css3' style={deviconStyle} />
 
+            <DevIcon icon='sass' style={deviconStyle} />
             <DevIcon icon='react' style={deviconStyle} />
             {/* <DevIcon icon='express' style={deviconStyle} /> */}
             {/* <DevIcon icon='mongoose' style={deviconStyle} /> */}
-            <DevIcon icon='sass' style={deviconStyle} />
 
             <DevIcon icon='mongodb' style={deviconStyle} />
 

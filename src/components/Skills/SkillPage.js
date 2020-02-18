@@ -27,7 +27,7 @@ const SkillPage = () => {
                             <li><p>A bill-splitting application integrated with restaurant POS</p></li>
                             <li><p>In charge of Style changes/additions</p></li>
                             <li><p>Managing the entire frontend GitHub repository with <br />daily commits & pull requests from multiple developers</p></li>
-                            <li><p></p></li>
+                            {/* <li><p></p></li> */}
                         </div>
                         
                         <lh>Employee Manager, Personal Project</lh>

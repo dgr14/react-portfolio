@@ -4,7 +4,7 @@
   }
 }
 
-@media all and (max-width: 1100px) {
+@media all and (min-width: 1224px) {
   ul.drawer-body {
     display: none;
   }

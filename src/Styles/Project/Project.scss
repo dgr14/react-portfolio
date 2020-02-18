@@ -9,14 +9,14 @@ $project-grey : black;
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
 // $breakpoint-tablet : ;
-$breakpoint-laptop : 1100px;
+$breakpoint-laptop : 1224px;
 // $breakpoint-desktop : ;
 
 // *********************** Desktop ***********************
 
 // *********************** Laptop ***********************
 
-@media all and (max-width: $breakpoint-laptop) {
+@media all and (min-width: $breakpoint-laptop) {
     .project-view {
         height: 100%;
         // background-image: linear-gradient($project-grey, $main-grey, $project-grey);

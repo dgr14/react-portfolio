@@ -8,7 +8,7 @@ $second-grey : #3e3e3e;
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
 // $breakpoint-tablet : ;
-$breakpoint-laptop : 1100px;
+$breakpoint-laptop : 1224px;
 // $breakpoint-desktop : ;
 
 // *********************** Desktop ***********************
@@ -41,7 +41,7 @@ main {
 
 // *********************** Laptop ***********************
 
-@media all and (max-width: $breakpoint-laptop) {
+@media all and (min-width: $breakpoint-laptop) {
     main {
         height: 92.5%;
     }

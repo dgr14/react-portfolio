@@ -7,25 +7,25 @@ $main-grey : #000000;
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
 $breakpoint-tablet : 650px;
-$breakpoint-laptop : 1100px;
-$breakpoint-desktop : 1600px;
+$breakpoint-laptop : 1224px;
+$breakpoint-desktop : 1824px;
 
 // *********************** Desktop ***********************
-@media all and (max-width: $breakpoint-desktop) {
+@media all and (min-width: $breakpoint-desktop) {
 
 }
 
 // *********************** Laptop ***********************
-@media all and (max-width: $breakpoint-laptop) {
+@media all and (min-width: $breakpoint-laptop) {
     
 }
 
 // *********************** Tablet ***********************
-@media all and (max-width: $breakpoint-tablet){
+@media all and (min-width: $breakpoint-tablet){
 
 }
 
 // *********************** Mobile ***********************
-@media all and (max-width: $breakpoint-mobile) {
+@media all and (min-width: $breakpoint-mobile) {
 
 }

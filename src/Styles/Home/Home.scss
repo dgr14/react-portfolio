@@ -8,7 +8,7 @@ $view-grey : #242424;
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
 // $breakpoint-tablet : ;
-$breakpoint-laptop : 1100px;
+$breakpoint-laptop : 1224px;
 // $breakpoint-desktop : ;
 
 // *********************** Desktop ***********************
@@ -53,7 +53,7 @@ $breakpoint-laptop : 1100px;
 }
 
 // *********************** Laptop - 13" ***********************
-@media all and (max-width: $breakpoint-laptop) {
+@media all and (min-width: $breakpoint-laptop) {
     .home-page{
         .home-spacer {
             padding: 1.2rem

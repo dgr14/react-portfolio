@@ -24,7 +24,7 @@ main {
   height: 100%;
 }
 
-@media all and (max-width: 1100px) {
+@media all and (min-width: 1224px) {
   main {
     height: 92.5%;
   }
