@@ -3,6 +3,7 @@
 $main-mint : #bbf3da;
 $light-mint : #f1fcf7;
 $main-grey : #000000;
+$view-grey : #242424;
 
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
@@ -10,22 +11,73 @@ $breakpoint-tablet : 650px;
 $breakpoint-laptop : 1224px;
 $breakpoint-desktop : 1824px;
 
-// *********************** Desktop ***********************
-@media all and (min-width: $breakpoint-desktop) {
-
-}
-
-// *********************** Laptop ***********************
-@media all and (min-width: $breakpoint-laptop) {
-    
-}
-
-// *********************** Tablet ***********************
-@media all and (min-width: $breakpoint-tablet){
-
-}
+// When using min width you have to start with smallest first to avoid being overwritten
 
 // *********************** Mobile ***********************
-@media all and (min-width: $breakpoint-mobile) {
 
-}
+// iPhone 6, 6s, 7 & 8
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 667)
+    and (-webkit-min-device-pixel-ration: 2){
+
+    }
+
+    // Landscape 
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) { 
+
+    }
+
+// iPhone 6+, 7+, & 8+
+@media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+
+    }
+
+    // Landscape
+@media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) { 
+
+    }
+
+// iPhone X
+@media only screen
+    and (min-device-width: 414px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+
+    }
+
+    // Landscape 
+@media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) { 
+
+    }
+
+// *********************** Tablet ***********************
+    @media all and (min-width: $breakpoint-tablet){
+
+    }
+
+
+// *********************** Laptop ***********************
+    @media all and (min-width: $breakpoint-laptop) {
+        
+    }
+
+// *********************** Desktop ***********************
+    @media all and (min-width: $breakpoint-desktop) {
+
+    }

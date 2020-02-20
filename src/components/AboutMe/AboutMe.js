@@ -8,7 +8,6 @@ import Spacer from '../Spacer/Spacer'
 const AboutMe = () => {
     return(
         <div className='about-me'>
-            {/* <div className='about-me-spacer'/> */}
             <Spacer />
             <div className='about-me__content'>
                 <h1>About Me</h1>

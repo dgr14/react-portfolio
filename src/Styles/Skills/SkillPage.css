@@ -1,4 +1,4 @@
-@media all and (max-width: 1224px) {
+@media all and (min-width: 1224px) {
   .skill-page {
     height: 100%;
     background-color: #000000;
@@ -10,7 +10,7 @@
   .skill-page .skill-container .title-holder {
     width: 100%;
     height: 1.70rem;
-    margin: 1rem;
+    margin: 1rem 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -45,17 +45,23 @@
   }
   .skill-page .skill-container ul p::before {
     content: "\2022";
-    color: #f1fcf7;
+    color: #2c2c2c;
     padding-right: 0.5rem;
   }
   .skill-page .skill-container lh {
     color: #bbf3da;
-    padding-left: 2rem;
     font-size: 1.25rem;
   }
   .skill-page .skill-container li {
     color: #f1fcf7;
     padding-left: 4rem;
+  }
+  .skill-page .skill-container ul.list {
+    padding: 1rem;
+  }
+  .skill-page .skill-container ul.list lh {
+    padding: 2rem 0 2rem 3rem;
+    font-size: 1.75rem;
   }
   .skill-page .skill-container ul.list lh a:link {
     text-decoration: none;
@@ -70,7 +76,10 @@
     text-decoration: none;
   }
   .skill-page .skill-container ul.list .items {
-    padding-top: 0.25rem;
+    padding-top: 0.5rem;
+  }
+  .skill-page .skill-container ul.list .items li {
+    padding: 0.25rem 0 0.25rem 4rem;
   }
   .skill-page .skill-container ul.list .line-gradient {
     height: 2px;

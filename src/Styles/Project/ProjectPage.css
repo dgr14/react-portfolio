@@ -1,10 +1,10 @@
 @media all and (min-width: 1224px) {
-  .project-page .project-spacer {
-    padding: 1.25rem;
+  .project-page {
+    height: 100%;
   }
   .project-page .project-title {
     width: 100%;
-    height: 2rem;
+    height: 3rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -19,6 +19,24 @@
   .project-page .project-title h1 {
     color: #bbf3da;
     font-weight: 250;
+  }
+  .project-page ul.project-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 87.5%;
+  }
+  .project-page ul.project-list .project-container {
+    width: 35%;
+  }
+  .project-page ul.project-list .expanded-view {
+    width: 65%;
+    height: 100%;
+    background-color: #242424;
+    border-bottom: 1px solid #f1fcf7;
+  }
+  .project-page ul.project-list li {
+    height: 5rem;
   }
   .project-page ul.project-list p {
     color: #f1fcf7;

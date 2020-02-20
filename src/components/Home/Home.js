@@ -3,12 +3,13 @@ import '../../Styles/Home/Home.css'
 import LoadingPage from '../LoadingPage/LoadingPage.js'
 
 // import Project from '../Project/Project.js'
+import Spacer from '../Spacer/Spacer'
 
 const View = () => {
     return(
         <Suspense fallback={ <LoadingPage /> }>
             <div className='home-page'>
-                <div className='home-spacer'/>
+                <Spacer />
                 <div className='home-content'>
                     <div className='landing-content'>
                         {/* <img /> */}
@@ -19,7 +20,7 @@ const View = () => {
                         <li><p>Currently living in Salt Lake City, UT</p></li>
                         <li><p> I develop mainly using the MERN Stack</p></li>
                         <li><p>Currently working on a mobile web application, CHCK</p></li>
-                        <li><p></p></li>
+                        {/* <li><p></p></li> */}
 
                     </ul>
                 </div>

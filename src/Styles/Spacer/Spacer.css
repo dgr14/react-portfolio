@@ -1,8 +1,7 @@
-@media all and (max-width: 1100px) {
+@media all and (min-width: 1224px) {
   .spacer-component {
-    height: 0;
-    width: 0;
-    padding: 1rem;
+    height: 68px;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=Spacer.css.map */

@@ -14,8 +14,9 @@ import '../../Styles/Skills/SkillImageContainer.css'
 import DevIcon from 'devicon-react-svg'
 
 const deviconStyle = {
+    // :hover: "#f1fcf7",
     fill: "#bbf3da",
-    width: "100px"
+    width: "150px"
 }
 
 

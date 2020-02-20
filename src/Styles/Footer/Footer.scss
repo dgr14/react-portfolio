@@ -7,47 +7,14 @@ $main-grey : #000000;
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
 // $breakpoint-tablet : ;
-$breakpoint-laptop : 1100px;
+$breakpoint-laptop : 1224px;
 // $breakpoint-desktop : ;
 
 
-// *********************** Desktop ***********************
-    .footer{
-        height: 7.5%;
-        border-top: 2px solid $light-mint;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        svg {
-            margin: 0 1rem;
-            height: 30px;
-            width: 30px;
-        }
-    }
 
 
-// *********************** Laptop *********************** 
 
-@media all and (max-width: $breakpoint-laptop) {
-    .footer {
-        a{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
 
-        svg {
-            margin: 0 0.75rem;
-            height: 22.5px;
-            width: 22.5px;
-
-            :hover{
-                color: $light-mint;
-            }
-        }
-    }
-}
 
 // *********************** Tablet *********************** 
 
@@ -62,5 +29,45 @@ $breakpoint-laptop : 1100px;
             margin: 0 0.5rem;
         }
 
+    }
+}
+
+// *********************** Laptop *********************** 
+
+@media all and (min-width: $breakpoint-laptop) {
+    .footer {
+        background-color: $main-grey;
+        a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            :hover{
+                color: red;
+            }
+        }
+
+        svg {
+            margin: 0 1rem;
+            height: 40px;
+            width: 40px;
+
+            
+        }
+    }
+}
+
+// *********************** Desktop ***********************
+.footer{
+    height: 7.5%;
+    border-top: 2px solid $light-mint;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        margin: 0 1rem;
+        height: 30px;
+        width: 30px;
     }
 }

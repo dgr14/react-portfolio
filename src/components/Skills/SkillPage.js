@@ -18,20 +18,19 @@ const SkillPage = () => {
                     </div>
 
                     <ul className='experience list'>
-
                         {/* new lh creates a new grouping for projects */}
                         {/* I should make the lh's links to the projects expanded view */}
-
-                        <lh>CHCK, Front-End Developer</lh>
+                        <lh><a href='https://www.getchck.com/' target='_blank' rel="noopener noreferrer">CHCK</a>, Front-End Developer</lh>
                         <div className='experience items'>
                             <li><p>A bill-splitting application integrated with restaurant POS</p></li>
                             <li><p>In charge of Style changes/additions</p></li>
-                            <li><p>Managing the entire frontend GitHub repository with <br />daily commits & pull requests from multiple developers</p></li>
+                            <li><p>Managing the entire frontend GitHub repository with daily commits & pull requests from multiple developers</p></li>
                             {/* <li><p></p></li> */}
                         </div>
-                        
-                        <lh>Employee Manager, Personal Project</lh>
-                        <li><p>Maintains employee information that needs to be <br /> commonly accessed by both fellow employees and the management staff</p></li>
+                        <div className='experience items'>
+                            <lh>Employee Manager, Personal Project</lh>
+                            <li><p>Maintains employee information that needs to be commonly accessed by both fellow employees and the management staff</p></li>
+                        </div>
                     </ul>
                 </div>
 
@@ -76,6 +75,7 @@ const SkillPage = () => {
                                     <li><p>Github</p></li>
                                 </div>
                             </ul>
+                            
                         </div>
                         <div className='skill-image-container'>
                             <SkillImageContainer />
@@ -125,6 +125,10 @@ const SkillPage = () => {
                             <li><p>New York, NY</p></li>
                         </div>
                     </ul>
+                </div>
+                {/* Volunteer work */}
+                <div className='volunteer'>
+                    {/* Add two events I've volunteered and worked at */}
                 </div>
             </div>
         </div>

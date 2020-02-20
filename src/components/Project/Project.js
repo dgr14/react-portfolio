@@ -11,10 +11,9 @@ const Project = props => {
     const {title, description} = props
     return(
         <div className='project-view'>
-            <div onClick={() => <ProjectExpanded />} className='project-container'>
-                {/* <img src={image} /> */}
-                <h2>{title}</h2>
+            <div onClick={() => <ProjectExpanded />} className='project-onclick'>
                 <ul className='project-list'>
+                    <lh><h2>{title}</h2></lh>
                     <li><p>{description}</p></li>
                 </ul>
                 
