@@ -8,7 +8,7 @@ $main-grey : #000000;
 $breakpoint-mobile : 500px;
 // $breakpoint-tablet : ;
 $breakpoint-laptop : 1224px;
-// $breakpoint-desktop : ;
+$breakpoint-desktop : 1824px;
 
 // *********************** Mobile ***********************
 // iPhone 6, 6s, 7 & 8
@@ -47,10 +47,25 @@ $breakpoint-laptop : 1224px;
 
 // iPhone X
 @media only screen
-    and (min-device-width: 414px)
+    and (min-device-width: 375px)
     and (max-device-width: 736px)
     and (-webkit-min-device-pixel-ratio: 3) {
+        .about-me {
+            height: 100%;
+            
+            .about-me__content {
+                
+                h1 {
+                    color: $main-mint;
+                    padding: 1rem;
+                }
 
+                p {
+                    color: $light-mint;
+                    padding: 0 0 1rem 1.5rem;
+                }
+            }
+        }
     }
 
     // Landscape 
@@ -95,3 +110,6 @@ $breakpoint-laptop : 1224px;
 }
 
 // *********************** Desktop ***********************
+@media all and (min-width: $breakpoint-desktop) {
+
+}

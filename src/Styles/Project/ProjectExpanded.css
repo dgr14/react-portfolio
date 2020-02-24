@@ -1,1 +1,6 @@
-/* No CSS *//*# sourceMappingURL=ProjectExpanded.css.map */
+@media only screen and (min-device-width: 375px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .project-expanded {
+    height: 100%;
+  }
+}
+/*# sourceMappingURL=ProjectExpanded.css.map */

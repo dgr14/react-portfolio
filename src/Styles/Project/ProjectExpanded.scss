@@ -6,15 +6,26 @@ $main-grey : #2f2f2f;
 
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
-// $breakpoint-tablet : ;
-// $breakpoint-desktop : ;
+$breakpoint-tablet : 650px;
+$breakpoint-laptop : 1224px;
+$breakpoint-desktop : 1824px;
 
 // *********************** Mobile ***********************
 // - Mobile media query
-@media all and (max-width: $breakpoint-mobile) {
-
-}
-
+// iPhone X
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+        .project-expanded {
+            height: 100%;
+        }
+    }
 // *********************** Tablet ***********************
+
+// *********************** Laptop ***********************
+    @media all and (min-width: $breakpoint-laptop) {
+            
+    }
 
 // *********************** Desktop ***********************

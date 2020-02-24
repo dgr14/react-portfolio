@@ -1,3 +1,17 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .about-me {
+    height: 100%;
+  }
+  .about-me .about-me__content h1 {
+    color: #bbf3da;
+    padding: 1rem;
+  }
+  .about-me .about-me__content p {
+    color: #f1fcf7;
+    padding: 0 0 1rem 1.5rem;
+  }
+}
+
 @media all and (min-width: 1224px) {
   .about-me {
     padding: 0 1rem;

@@ -49,7 +49,7 @@ class App extends Component {
               <Route path='/about' component={AboutMe} />
 
               <Route path='/projects' component={ProjectPage} />
-              <Route path='/projectview' component={ProjectExpanded} />
+              <Route path='/projectview/:project' component={ProjectExpanded} />
 
               <Route path='/skills' component={SkillPage} />
             </Switch>

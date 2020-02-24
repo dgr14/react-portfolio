@@ -11,6 +11,47 @@ $breakpoint-mobile : 500px;
 $breakpoint-laptop : 1224px;
 // $breakpoint-desktop : ;
 
+// *********************** Mobile ***********************
+//  iPhone X
+
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+
+    .project-page {
+        height: 100%;
+        
+        .project-title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h1 {
+                color: $main-mint;
+                padding: 1rem;
+            }
+        }
+
+        ul.project-list {
+
+            .project-container {
+
+                li{
+                    margin-bottom: 2rem ;
+                    height: 10rem;
+                }
+            }
+
+            .expanded-view {
+                display: none;
+            }
+        }
+
+        
+    }
+}
+
 // *********************** Desktop ***********************
 
 // *********************** Laptop ***********************
@@ -64,9 +105,3 @@ $breakpoint-laptop : 1224px;
 
 // *********************** Tablet ***********************
 
-// *********************** Mobile ***********************
-
-// - Mobile media query
-@media all and (max-width: $breakpoint-mobile) {
-
-}

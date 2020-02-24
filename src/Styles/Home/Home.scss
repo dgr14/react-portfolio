@@ -15,19 +15,11 @@ $breakpoint-desktop : 1824px;
 // - Mobile media query
 @media only screen and (min-width: $breakpoint-mobile) {
 
-    .home-page{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background-color: $view-grey;
-
-        h1{
-            color: white;
-            
-        }
-    }
+    
 }
+// iPhone X
+
+
 
 // *********************** Tablet ***********************
 
@@ -42,7 +34,7 @@ $breakpoint-desktop : 1824px;
         justify-content: flex-start;
         
         .home-content {
-         
+            
             
 
             
@@ -52,38 +44,78 @@ $breakpoint-desktop : 1824px;
 
 // *********************** Desktop ***********************
 
-.home-page {
-    height: 100%;
+@media all and (min-width: $breakpoint-desktop) {
+    .home-page {
+        height: 100%;
 
-    .home-content {
+        .home-content {
 
-        .landing-content {
-            img {
-                border: solid ;
+            .landing-content {
+                img {
+                    border: solid ;
+                }
+            }
+
+            ul.main-home-info {
+
+                lh {
+                    font-size: 1.5rem;
+                }
+
+                h1{
+                    color: $main-mint;
+                    margin: 1rem;
+                }
+                li {
+                    margin: 0.5rem 0rem 0.5rem 4rem;
+                }
+                p {
+                    color: $light-mint;
+                    
+                }
             }
         }
-
-        ul.main-home-info {
-
-            lh {
-                font-size: 1.5rem;
-            }
-
-            h1{
-                color: $main-mint;
-                margin: 1rem;
-            }
-            li {
-                margin: 0.5rem 0rem 0.5rem 4rem;
-            }
-            p {
-                color: $light-mint;
-                
-            }
-
-        }
-
-        
     }
-    
 }
+
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+
+        .home-page{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            background-color: $view-grey;
+
+            .home-content {
+
+                ul.main-home-info {
+
+                    lh{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        h1 {
+                            color: $main-mint;
+                            font-weight: 400;
+                            font-size: 35pt;
+                        }
+                    }
+
+                    li {
+                        padding: 0.5rem 0 0.5rem 1rem;
+
+                        p {
+                            color: $light-mint;
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }

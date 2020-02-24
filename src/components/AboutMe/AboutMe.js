@@ -11,7 +11,7 @@ const AboutMe = () => {
             <Spacer />
             <div className='about-me__content'>
                 <h1>About Me</h1>
-                <p>Born in Santa Barbara, raised in New York City</p>
+                <p> - Born in Santa Barbara, raised in New York City</p>
             </div>
         </div>
     )

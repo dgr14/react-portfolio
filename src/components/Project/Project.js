@@ -16,10 +16,8 @@ const Project = props => {
                     <lh><h2>{title}</h2></lh>
                     <li><p>{description}</p></li>
                 </ul>
-                
             </div>
         </div>
-        
     )
 }
 

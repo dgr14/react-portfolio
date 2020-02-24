@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react'
 import '../../Styles/Home/Home.css'
+
 import LoadingPage from '../LoadingPage/LoadingPage.js'
 
 // import Project from '../Project/Project.js'

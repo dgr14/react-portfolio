@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAeA,MAAM,MAAM,MAAM,MAAM,gBAAgB,EAAE,KAAK,OAAO,gBAAgB,EAAE,KAAK,QAAQ,6BAA6B,EAAE,CAAC;EAI7G,AAAA,iBAAiB,CAAC;IACd,MAAM,EAAE,IAAI;GACf",
     "sources": [
         "ProjectExpanded.scss"
     ],

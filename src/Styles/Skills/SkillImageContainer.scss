@@ -7,18 +7,36 @@ $main-grey : #000000;
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
 $breakpoint-tablet : 650px;
-$breakpoint-laptop : 1300px;
+$breakpoint-laptop : 1224px;
 $breakpoint-desktop : 1600px;
 
-// *********************** Desktop ***********************
-@media all and (min-width: $breakpoint-desktop) {
+// *********************** Mobile ***********************
+@media all and (min-width: $breakpoint-mobile) {
+
+}
+
+// *********************** Tablet ***********************
+@media all and (min-width: $breakpoint-tablet){
 
 }
 
 // *********************** Laptop ***********************
-@media all and (max-width: $breakpoint-laptop) {
+@media all and (min-width: $breakpoint-laptop) {
     .image-container {
         width: 100%;
+        height: 30rem;
+        border-left: 1px solid $main-mint;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
 
         img {
             height: 100px;
@@ -29,12 +47,7 @@ $breakpoint-desktop : 1600px;
     }
 }
 
-// *********************** Tablet ***********************
-@media all and (min-width: $breakpoint-tablet){
-
-}
-
-// *********************** Mobile ***********************
-@media all and (min-width: $breakpoint-mobile) {
+// *********************** Desktop ***********************
+@media all and (min-width: $breakpoint-desktop) {
 
 }

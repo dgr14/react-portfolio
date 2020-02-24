@@ -1,4 +1,5 @@
-import React from 'react'
+import React  from 'react'
+import {Link} from 'react-router-dom'
 import '../../Styles/Project/ProjectPage.css'
 
 import Project from './Project'
@@ -15,7 +16,7 @@ const ProjectPage = () => {
             <ul className='project-list'>
             {/* <p>Below are some projects I have been a part of or built individually</p> */}
                 <div className='project-container'>
-                    <li><Project title='CHCK' description='A bill splitting application' /></li>
+                    <Link to='/projectview/:project'><Project title='CHCK' description='A bill splitting application' /></Link>
                     <li><Project title='Employee Tracker' description='An app that keeps track of employees and their data'/></li>
                     <li><Project title='Premier League App' description='Displays soccer data with axios calls to a 3rd party api'/></li>
                 </div>
@@ -23,11 +24,7 @@ const ProjectPage = () => {
                 <div className='expanded-view'>
                         
                 </div>
-
             </ul>
-
-            {/* <Project /> */}
-
         </div>
     )
 }

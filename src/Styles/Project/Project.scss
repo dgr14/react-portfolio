@@ -8,17 +8,73 @@ $project-grey : black;
 
 // - my Variables for media queries
 $breakpoint-mobile : 500px;
-// $breakpoint-tablet : ;
+$breakpoint-tablet : 650px; // Need to update this pixel size
 $breakpoint-laptop : 1224px;
-// $breakpoint-desktop : ;
+$breakpoint-desktop : 1824px;
 
-// *********************** Desktop ***********************
+// *********************** Mobile ***********************
+// - Mobile media query
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+
+    .project-view{
+        margin: 5pt auto 0 auto;
+        padding: 1%;
+        height: 100%;
+        width: 90%;
+        
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        border: 2pt solid $light-mint;
+        border-radius: 5pt;
+
+        .project-onclick{
+            height: 100%;
+            width: 100%;
+            background-color: $project-grey;
+            
+            
+
+            ul.project-list {
+                
+                height: 100%;
+                width: 50%;
+                border-right: 2pt solid $light-mint;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+
+                lh {
+                    h2 {
+                        margin: 0;
+                        color: $main-mint;
+                    }
+                }
+
+                li {
+                    display: none;
+                    p {
+                        color: $light-mint;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+// *********************** Tablet ***********************
 
 // *********************** Laptop ***********************
-
 @media all and (min-width: $breakpoint-laptop) {
     .project-view {
-        height: 100%;
+        // height: 100%;
         border-bottom: 1px solid $light-mint;
         border-right: 1px solid $light-mint;
         // width: 35%;
@@ -46,43 +102,4 @@ $breakpoint-laptop : 1224px;
     }
 }
 
-// *********************** Tablet ***********************
-
-// *********************** Mobile ***********************
-// - Mobile media query
-@media all and (max-width: $breakpoint-mobile) {
-    .project-view{
-        margin: 45pt auto 0 auto;
-        padding: 1%;
-        height: 92.5%;
-        width: 90%;
-        
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-
-        .project-onclick{
-            height: 20%;
-            width: 100%;
-            background-color: $project-grey;
-            border-radius: 5pt;
-            border: 2pt solid $main-grey;
-
-            h1{
-                color: $light-mint;
-                
-            }
-        }
-
-        ul{
-            background-color: $main-grey;
-            height: 25%;
-            width: 50%;
-        }
-        
-        h2{
-            margin: 0;
-        }
-        // background-image: linear-gradient($light-mint, $light-grey, $light-mint);
-    }
-}
+// *********************** Desktop ***********************

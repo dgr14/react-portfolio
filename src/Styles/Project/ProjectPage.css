@@ -1,3 +1,31 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .project-page {
+    height: 100%;
+  }
+  .project-page .project-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .project-page .project-title h1 {
+    color: #bbf3da;
+    padding: 1rem;
+  }
+  .project-page ul.project-list .project-container li {
+    margin-bottom: 2rem;
+    height: 10rem;
+  }
+  .project-page ul.project-list .expanded-view {
+    display: none;
+  }
+}
+
 @media all and (min-width: 1224px) {
   .project-page {
     height: 100%;
