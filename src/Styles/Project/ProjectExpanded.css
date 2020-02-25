@@ -1,6 +1,55 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   .project-expanded {
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .project-expanded h1 {
+    color: #f1fcf7;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  .project-expanded .des-holder {
+    text-align: left;
+  }
+  .project-expanded .des-holder p {
+    color: #f1fcf7;
+    padding: 0 0.5rem;
+  }
+}
+
+@media all and (min-width: 1224px) {
+  .project-expanded {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin: 2rem 2rem 0 2rem;
+  }
+  .project-expanded h1 {
+    color: #f1fcf7;
+  }
+  .project-expanded p {
+    color: #f1fcf7;
   }
 }
 /*# sourceMappingURL=ProjectExpanded.css.map */

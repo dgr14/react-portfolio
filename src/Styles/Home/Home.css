@@ -14,6 +14,18 @@
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
+  .home-page .home-content ul.main-home-info lh h1 {
+    color: #bbf3da;
+    margin: 1rem;
+    font-size: 4rem;
+  }
+  .home-page .home-content ul.main-home-info li {
+    margin: 0.5rem 0rem 0.5rem 4rem;
+  }
+  .home-page .home-content ul.main-home-info li p {
+    color: #f1fcf7;
+    font-size: 1.5rem;
+  }
 }
 
 @media all and (min-width: 1824px) {
@@ -23,17 +35,15 @@
   .home-page .home-content .landing-content img {
     border: solid;
   }
-  .home-page .home-content ul.main-home-info lh {
-    font-size: 1.5rem;
-  }
-  .home-page .home-content ul.main-home-info h1 {
+  .home-page .home-content ul.main-home-info lh h1 {
     color: #bbf3da;
+    font-size: 1.5rem;
     margin: 1rem;
   }
   .home-page .home-content ul.main-home-info li {
     margin: 0.5rem 0rem 0.5rem 4rem;
   }
-  .home-page .home-content ul.main-home-info p {
+  .home-page .home-content ul.main-home-info li p {
     color: #f1fcf7;
   }
 }

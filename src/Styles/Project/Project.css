@@ -51,7 +51,6 @@
 @media all and (min-width: 1224px) {
   .project-view {
     border-bottom: 1px solid #f1fcf7;
-    border-right: 1px solid #f1fcf7;
     padding: 0 0.25rem 0 0.25rem;
   }
   .project-view .project-onclick h2 {

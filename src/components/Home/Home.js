@@ -22,7 +22,6 @@ const View = () => {
                         <li><p> I develop mainly using the MERN Stack</p></li>
                         <li><p>Currently working on a mobile web application, CHCK</p></li>
                         {/* <li><p></p></li> */}
-
                     </ul>
                 </div>
                 

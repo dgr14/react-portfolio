@@ -21,11 +21,20 @@ $breakpoint-laptop : 1224px;
 
     .project-page {
         height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        
         
         .project-title {
+            width: 100%;
+            height: 3rem;
+            padding: 0.5rem;
             display: flex;
             justify-content: center;
             align-items: center;
+            border-bottom: 2px solid $light-mint;
 
             h1 {
                 color: $main-mint;
@@ -37,6 +46,27 @@ $breakpoint-laptop : 1224px;
 
             .project-container {
 
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 1rem 0;
+
+                h1 {
+                    color: $main-mint;
+                    a {
+                        color: $main-mint;
+    
+                    }
+    
+                    a:link {
+                        color: $main-mint;
+                    }
+                    a:visited {
+                        color: $main-mint;
+                    }
+                }
+
                 li{
                     margin-bottom: 2rem ;
                     height: 10rem;
@@ -44,11 +74,12 @@ $breakpoint-laptop : 1224px;
             }
 
             .expanded-view {
-                display: none;
+                // display: none;
+                background-color: $view-grey;
+                height: 31.20em;
+                border-top: 2px solid $light-mint;
             }
         }
-
-        
     }
 }
 
@@ -72,24 +103,37 @@ $breakpoint-laptop : 1224px;
                 font-weight: 250;
                 
             }
-               
         }
 
         ul.project-list {
             display: flex;
-            height: 87.5%;
-            
+            height: 82.5%;
             
             .project-container {
-                width: 35%;
+                width: 27.5%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+
+                h1{
+                    a{
+                        color: $main-mint;
+                        text-decoration: none;
+
+                        
+                    }
+                    a:hover {
+                        text-decoration: underline;
+                    }
+                }
             }
 
             .expanded-view {
-                width: 65%;
+                width: 72.5%;
                 height: 100%;
                 background-color: $view-grey;
-                
-                border-bottom: 1px solid $light-mint;
+                border-left: 1px solid $light-mint;
             }
 
             li {

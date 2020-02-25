@@ -1,27 +1,21 @@
 import React from 'react'
+import {useParams} from 'react-router-dom'
 import '../../Styles/Project/ProjectExpanded.css'
 
-const projects = {
-    "chck" : {
-        title: "CHCK",
-        description: "A bill splitting application"
-    },
-    "employeetracker" : {
-        title: "Employee Tracker",
-        description: "An app that keeps track of employees and their data"
-    },
-    "premierleagueapp" : {
-        title: "Premier League App",
-        description: "Displays soccer data with axios calls to a 3rd party api"
-    }
-}
-
-const data = projects
+import projects from './projects.json'
 
 const ProjectExpanded = props => {
+    // console.log(projects)
+    const expandedProject = useParams().project
+    const project = projects.filter(project => expandedProject === project.name)[0]
+
     return(
         <div className='project-expanded'>
-            <h1>data.title</h1>
+            {/* <img /> */}
+            <h1>{project.name}</h1>
+            <div className='des-holder'>
+                <p>{project.description}</p>
+            </div>
         </div>
     )
 }

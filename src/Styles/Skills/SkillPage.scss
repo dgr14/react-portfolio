@@ -15,10 +15,118 @@ $breakpoint-laptop : 1224px;
 // *********************** Mobile ***********************
 
 // - Mobile media query
-@media all and (min-width: $breakpoint-mobile) {
-    
-}
+// iPhone X
+@media only screen
+    and (min-device-width: 375px)
+    and (max-device-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+        .skill-page {
+            height: 100%;
+            background-color: $main-grey;
+            overflow-y: scroll;
 
+            .skill-container {
+                // all title holder divs
+                .title-holder {
+                    width: 100%;
+                    height: 3rem;
+                    padding: 1rem;
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                    border-bottom: 2pt solid $view-grey;
+                    
+                    h1 {
+                        color: $main-mint;
+                        font-size: 2.5rem;
+                    }
+                }
+                // div for styling experience
+                // .exp {
+
+                    
+                // }
+
+                .programming {
+                    
+                    .programming-flex {
+                        display: flex;
+                        justify-content: center;
+                        // align-items: center;
+
+                        .text-container {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+
+                            ul.list {
+                                
+                                lh {
+                                    font-size: 2.25rem;
+                                    color: $main-mint;
+                                    font-weight: 300;
+                                }
+
+                                li {
+                                    p {
+                                        font-size: 1.25rem;
+                                    }
+                                }
+
+                            }
+                        }
+                        // holds the devicons
+                        .skill-image-container {
+                            display: none;
+                        }
+                    }
+                }
+
+                // this is to change the bullet color
+                ul p::before{
+                    content: "\2022"; // Add content: \2022 is the CSS Code/unicode for a bullet
+                    color: $view-grey;
+                    // font-weight: bold;
+                    padding-right: 0.5rem;
+                    // display: inline-block; // adds space between the bullets and the text
+                }
+
+                ul.list {
+                    padding: 1rem;
+
+                    lh {
+                        font-size: 1.5rem;
+                        color: $main-mint;
+
+                        a:link {
+                            color: $main-mint;
+                        }
+                        a:visited {
+                            color: $main-mint;
+                        }
+                    }
+
+                    .items {
+                        padding: 0.5rem 0;
+
+                        li {
+                            padding: 0.25rem 0 0.25rem 1rem;
+                            color: $light-mint;
+                        }
+                    }
+                }
+
+                .non-tech {
+                    .title-holder {
+                        height: 6rem;
+                    }
+                }
+            }
+
+        }
+    }
 // *********************** Tablet ***********************
 
 // *********************** Laptop ***********************
@@ -64,6 +172,7 @@ $breakpoint-laptop : 1224px;
                         justify-content: center;
                         padding-right: -2rem;
                         // border-right: 1px solid $main-mint;
+                        
                     }
 
                     .skill-image-container {
@@ -72,8 +181,6 @@ $breakpoint-laptop : 1224px;
                         
                     }
                 }
-
-
             }
 
             // this is to change the bullet color
@@ -91,9 +198,10 @@ $breakpoint-laptop : 1224px;
 
                 // this changes the styling of all lh links
                 lh {
-                    // padding: 2rem 0 2rem 3rem;
+                    
                     font-size: 1.75rem;
                     color: $main-mint;
+                    
 
                     a:link {
                         text-decoration: none;
@@ -112,7 +220,7 @@ $breakpoint-laptop : 1224px;
                 }
                 // Effects all list items on page
                 .items {
-                    padding-top: 0.5rem;
+                    padding: 0.5rem 0;
 
                     li{
                         padding: 0.25rem 0 0.25rem 1rem;

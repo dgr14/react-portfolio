@@ -1,0 +1,14 @@
+[
+    {
+        "name": "CHCK",
+        "description": "A bill splitting application"
+    },
+    {
+        "name": "Employee Tracker",
+        "description": "An app that keeps track of employees and their data"
+    },
+    {
+        "name": "Premier League App",
+        "description": "Displays soccer data with axios calls to a 3rd party api"
+    }
+]

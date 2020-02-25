@@ -35,13 +35,33 @@ $breakpoint-desktop : 1824px;
         
         .home-content {
             
-            
+            // .landing-content {
 
-            
+            // }
+
+            ul.main-home-info {
+
+                lh {
+
+                    h1 {
+                        color: $main-mint;
+                        margin: 1rem;
+                        font-size: 4rem;
+                    }
+                }
+
+                li {
+                    margin: 0.5rem 0rem 0.5rem 4rem;
+
+                    p {
+                        color: $light-mint;
+                        font-size: 1.5rem;
+                    }
+                }
+            }
         }
     }
 }
-
 // *********************** Desktop ***********************
 
 @media all and (min-width: $breakpoint-desktop) {
@@ -59,20 +79,23 @@ $breakpoint-desktop : 1824px;
             ul.main-home-info {
 
                 lh {
-                    font-size: 1.5rem;
+                    
+                    h1{
+                        color: $main-mint;
+                        font-size: 1.5rem;
+                        margin: 1rem;
+                    }
                 }
 
-                h1{
-                    color: $main-mint;
-                    margin: 1rem;
-                }
+                
                 li {
                     margin: 0.5rem 0rem 0.5rem 4rem;
+
+                    p {
+                        color: $light-mint;
+                    }
                 }
-                p {
-                    color: $light-mint;
-                    
-                }
+                
             }
         }
     }

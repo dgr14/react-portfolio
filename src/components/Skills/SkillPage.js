@@ -27,8 +27,8 @@ const SkillPage = () => {
                             <li><p>Managing the entire frontend GitHub repository with daily commits & pull requests from multiple developers</p></li>
                             {/* <li><p></p></li> */}
                         </div>
-                        <div className='experience items'>
                             <lh>Employee Manager, Personal Project</lh>
+                        <div className='experience items'>
                             <li><p>Maintains employee information that needs to be commonly accessed by both fellow employees and the management staff</p></li>
                         </div>
                     </ul>
