@@ -124,7 +124,7 @@ $breakpoint-desktop : 1600px;
                 ul.toolbar-links {
 
                     li {
-                        
+
                         a {
 
                         }
@@ -164,8 +164,17 @@ $breakpoint-desktop : 1600px;
                 
                 a.name-title {
                     font-size: 3rem;
-                    font-weight: 300;
+                    font-weight: bold;
                 }
+
+                a:link {
+                    text-decoration: none;
+                }
+                a:hover {
+                    color: transparent;
+                    -webkit-text-stroke: ;
+                }
+
             }
 
             .toolbar__navigation-items {

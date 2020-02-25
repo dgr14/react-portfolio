@@ -115,7 +115,13 @@
   }
   .toolbar nav.toolbar__navigation .toolbar__logo a.name-title {
     font-size: 3rem;
-    font-weight: 300;
+    font-weight: bold;
+  }
+  .toolbar nav.toolbar__navigation .toolbar__logo a:link {
+    text-decoration: none;
+  }
+  .toolbar nav.toolbar__navigation .toolbar__logo a:hover {
+    color: transparent;
   }
   .toolbar nav.toolbar__navigation .toolbar__navigation-items ul.toolbar-links li {
     margin: 0 0.5rem;
