@@ -31,11 +31,13 @@ $breakpoint-desktop : 1824px;
                 text-align: center;
             }
 
+            // div holding description info
             .des-holder {
                 // display: flex;
                 // align-items: flex-start;
                 // justify-content: flex-start;
                 text-align: left;
+                
                 p {
                     color: $light-mint;
                     padding: 0 0.5rem;
@@ -59,14 +61,19 @@ $breakpoint-desktop : 1824px;
                 justify-content: flex-start;
                 margin: 2rem 2rem 0 2rem;
 
+                .des-holder {
+                    p {
+                        color: $light-mint;
+                        margin-top: 2rem;
+                    }
+                }
+
                 h1 {
                     color: $light-mint;
 
                 }
 
-                p {
-                    color: $light-mint;
-                }
+                
             }
     }
 

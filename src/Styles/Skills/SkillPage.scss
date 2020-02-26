@@ -237,6 +237,15 @@ $breakpoint-laptop : 1224px;
                 }
             }
 
+            .non-tech {
+
+                ul.non-tech.list {
+
+                    .non-tech-item {
+                        margin: 0.75rem 0;
+                    }
+                }
+            }
             
         }
     }

@@ -26,6 +26,18 @@
     color: #f1fcf7;
     font-size: 1.5rem;
   }
+  .home-page .home-content ul.main-home-info li p a {
+    cursor: pointer;
+  }
+  .home-page .home-content ul.main-home-info li p a:link {
+    color: #f1fcf7;
+  }
+  .home-page .home-content ul.main-home-info li p a:visited {
+    color: #f1fcf7;
+  }
+  .home-page .home-content ul.main-home-info li p a:hover {
+    color: #bbf3da;
+  }
 }
 
 @media all and (min-width: 1824px) {

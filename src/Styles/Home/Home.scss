@@ -56,6 +56,22 @@ $breakpoint-desktop : 1824px;
                     p {
                         color: $light-mint;
                         font-size: 1.5rem;
+
+                        a {
+                            cursor: pointer;
+                        }
+
+                        a:link {
+                            color: $light-mint;
+                        }
+
+                        a:visited {
+                            color: $light-mint;
+                        }
+
+                        a:hover {
+                            color: $main-mint;
+                        }
                     }
                 }
             }

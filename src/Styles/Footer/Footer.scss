@@ -30,6 +30,8 @@ $breakpoint-desktop : 1824px;
         // bottom: 0;
         // width: 100%;
 
+        
+
         svg {
             margin: 0 0.5rem;
         }
@@ -48,6 +50,14 @@ $breakpoint-desktop : 1824px;
         display: flex;
         justify-content: center;
         align-items: center;
+
+        .devicon {
+            width: 10rem;
+            display: flex;
+            // flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
 
         a{
             display: flex;

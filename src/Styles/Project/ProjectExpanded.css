@@ -45,10 +45,11 @@
             justify-content: flex-start;
     margin: 2rem 2rem 0 2rem;
   }
-  .project-expanded h1 {
+  .project-expanded .des-holder p {
     color: #f1fcf7;
+    margin-top: 2rem;
   }
-  .project-expanded p {
+  .project-expanded h1 {
     color: #f1fcf7;
   }
 }

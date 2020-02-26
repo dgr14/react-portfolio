@@ -178,5 +178,8 @@
     background-image: -webkit-gradient(linear, left top, right top, from(#f1fcf7), to(#bbf3da));
     background-image: linear-gradient(to right, #f1fcf7, #bbf3da);
   }
+  .skill-page .skill-container .non-tech ul.non-tech.list .non-tech-item {
+    margin: 0.75rem 0;
+  }
 }
 /*# sourceMappingURL=SkillPage.css.map */

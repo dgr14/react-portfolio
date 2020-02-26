@@ -119,9 +119,13 @@
   }
   .toolbar nav.toolbar__navigation .toolbar__logo a:link {
     text-decoration: none;
+    color: #bbf3da;
   }
   .toolbar nav.toolbar__navigation .toolbar__logo a:hover {
-    color: transparent;
+    text-decoration: underline;
+  }
+  .toolbar nav.toolbar__navigation .toolbar__logo a:visited {
+    color: #bbf3da;
   }
   .toolbar nav.toolbar__navigation .toolbar__navigation-items ul.toolbar-links li {
     margin: 0 0.5rem;

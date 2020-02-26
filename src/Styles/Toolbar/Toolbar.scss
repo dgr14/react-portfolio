@@ -165,14 +165,21 @@ $breakpoint-desktop : 1600px;
                 a.name-title {
                     font-size: 3rem;
                     font-weight: bold;
+
                 }
 
                 a:link {
                     text-decoration: none;
+                    color: $main-mint;
                 }
                 a:hover {
-                    color: transparent;
-                    -webkit-text-stroke: ;
+                    text-decoration: underline;
+                    
+                    // color: transparent;
+                    // -webkit-text-stroke: ;
+                }
+                a:visited {
+                    color: $main-mint;
                 }
 
             }

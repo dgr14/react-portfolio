@@ -103,27 +103,36 @@ const SkillPage = () => {
                     </div>
 
                     <ul className='non-tech list'>
-                        <lh>Starbucks, Barista</lh>
-                        <div className='starbucks items'>
-                            <li><p>Salt Lake City, UT</p></li>
-                            {/* <li><p></p></li> */}
+                        <div className='non-tech-item'>
+                            <lh>Starbucks, Barista</lh>
+                            <div className='starbucks items'>
+                                <li><p>Salt Lake City, UT</p></li>
+                                {/* <li><p></p></li> */}
+                            </div>
                         </div>
 
-                        <lh>Best Buy, Computer Salesperson</lh>
-                        <div className='bestbuy items'>
-                            <li><p>Salt Lake City, UT</p></li>
-                            {/* <li><p></p></li> */}
+                        <div className='non-tech-item'>
+                            <lh>Best Buy, Computer Salesperson</lh>
+                            <div className='bestbuy items'>
+                                <li><p>Salt Lake City, UT</p></li>
+                                {/* <li><p></p></li> */}
+                            </div>
                         </div>
 
-                        <lh>Gosnell Tree & Landscape, Office Manager</lh>
-                        <div className='gtl items'>
-                            <li><p>Santa Barbara, CA</p></li>
+                        <div className='non-tech-item'>
+                            <lh>Gosnell Tree & Landscape, Office Manager</lh>
+                            <div className='gtl items'>
+                                <li><p>Santa Barbara, CA</p></li>
+                            </div>
                         </div>
 
-                        <lh>Emporio Armani, Salesperson</lh>
-                        <div className='emporio items'>
-                            <li><p>New York, NY</p></li>
+                        <div className='non-tech-item'>
+                            <lh>Emporio Armani, Salesperson</lh>
+                            <div className='emporio items'>
+                                <li><p>New York, NY</p></li>
+                            </div>
                         </div>
+                        
                     </ul>
                 </div>
                 {/* Volunteer work */}
