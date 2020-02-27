@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 import '../../Styles/Toolbar/Toolbar.css'
 import DrawerToggleButton from '../SideDrawer/DrawerToggleButton'
 
@@ -12,11 +13,16 @@ const toolbar = props => (
             <div className='spacer' />
             <div className='toolbar__navigation-items'>
                 <ul className='toolbar-links'>
-                    <li><a href='/'>Home</a></li>
+                    {/* <li><a href='/'>Home</a></li>
                     <li><a href='/about'>About Me</a></li>
                     <li><a href='/projects'>Projects</a></li>
                     <li><a href='/skills'>Skills</a></li>
-                    <li><a href='/contact'>Contact Me</a></li>
+                    <li><a href='/contact'>Contact Me</a></li> */}
+
+                    <Link to='home-page' smooth={true}>Home</Link>
+                    <Link to='about-me' smooth={true}>About Me</Link>
+
+
                 </ul>
             </div>
         </nav>

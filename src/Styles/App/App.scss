@@ -58,6 +58,7 @@ main {
 @media all and (min-width: $breakpoint-laptop) {
     main {
         height: 92.5%;
+        overflow-y: scroll;
     }
 }
 

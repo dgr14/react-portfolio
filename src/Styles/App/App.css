@@ -33,6 +33,7 @@ main {
 @media all and (min-width: 1224px) {
   main {
     height: 92.5%;
+    overflow-y: scroll;
   }
 }
 /*# sourceMappingURL=App.css.map */

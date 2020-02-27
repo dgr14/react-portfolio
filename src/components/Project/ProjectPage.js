@@ -9,7 +9,7 @@ import projects from './projects.json'
 
 const ProjectPage = () => {
 
-    const projectsMapped = projects.map(project => <h1><Link key={project.name} to={`/projects/${project.name}`}>{project.name}</Link></h1>)
+    const projectsMapped = projects.map(project => <Link key={project.name} to={`/projects/${project.name}`}><h1>{project.name}</h1></Link>)
 
     return(
         <div className='project-page'>

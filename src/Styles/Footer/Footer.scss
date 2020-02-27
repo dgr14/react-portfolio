@@ -59,15 +59,22 @@ $breakpoint-desktop : 1824px;
             justify-content: center;
         }
 
-        a{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        .resume-container {
+            position: relative;
             
-            :hover{
+            a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: $main-mint;
+            }
+    
+            a:hover{
                 color: red;
             }
         }
+
+        
 
         svg {
             margin: 0 1rem;

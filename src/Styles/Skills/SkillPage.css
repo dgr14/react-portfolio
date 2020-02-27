@@ -89,7 +89,6 @@
   .skill-page {
     height: 100%;
     background-color: #000000;
-    overflow-y: auto;
   }
   .skill-page .skill-container .title-holder {
     width: 100%;

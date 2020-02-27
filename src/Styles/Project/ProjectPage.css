@@ -112,12 +112,16 @@
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
-  .project-page ul.project-list .project-container h1 a {
+  .project-page ul.project-list .project-container a {
     color: #bbf3da;
+  }
+  .project-page ul.project-list .project-container a h1 {
+    color: #f1fcf7;
     text-decoration: none;
   }
-  .project-page ul.project-list .project-container h1 a:hover {
+  .project-page ul.project-list .project-container a h1:hover {
     text-decoration: underline;
+    color: #bbf3da;
   }
   .project-page ul.project-list .expanded-view {
     width: 72.5%;

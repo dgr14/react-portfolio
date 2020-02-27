@@ -13,6 +13,7 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
+    height: 100%;
   }
   .home-page .home-content ul.main-home-info lh h1 {
     color: #bbf3da;

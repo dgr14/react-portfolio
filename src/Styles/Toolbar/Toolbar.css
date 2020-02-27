@@ -99,7 +99,6 @@
   }
   .name-title {
     font-size: 6rem;
-    color: red;
   }
 }
 
@@ -122,7 +121,7 @@
     color: #bbf3da;
   }
   .toolbar nav.toolbar__navigation .toolbar__logo a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
   .toolbar nav.toolbar__navigation .toolbar__logo a:visited {
     color: #bbf3da;

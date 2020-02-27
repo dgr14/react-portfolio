@@ -43,7 +43,13 @@
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    margin: 2rem 2rem 0 2rem;
+    padding: 2rem 2rem 0 2rem;
+  }
+  .project-expanded a {
+    color: #bbf3da;
+  }
+  .project-expanded a:link {
+    color: #bbf3da;
   }
   .project-expanded .des-holder p {
     color: #f1fcf7;
@@ -51,6 +57,9 @@
   }
   .project-expanded h1 {
     color: #f1fcf7;
+  }
+  .project-expanded h1:hover {
+    color: #bbf3da;
   }
 }
 /*# sourceMappingURL=ProjectExpanded.css.map */

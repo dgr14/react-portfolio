@@ -1,14 +1,17 @@
 [
     {
         "name": "CHCK",
-        "description": "A bill splitting application"
+        "description": "A bill splitting application",
+        "url": "https://www.getchck.com"
     },
     {
         "name": "Employee Tracker",
-        "description": "An app that keeps track of employees and their data"
+        "description": "An app that keeps track of employees and their data",
+        "url": "https://www.darius-employee-manager.herokuapp.com"
     },
     {
         "name": "Premier League App",
-        "description": "Displays soccer data with axios calls to a 3rd party api"
+        "description": "Displays soccer data with axios calls to a 3rd party api",
+        "url": "https://www.liverpoolsleague.surge.sh"
     }
 ]

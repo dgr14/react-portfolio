@@ -106,9 +106,9 @@ $breakpoint-desktop : 1600px;
 
         nav.toolbar__navigation {
             
-            .toolbar__toggle-button {
+            // .toolbar__toggle-button {
 
-            }
+            // }
 
             .toolbar__logo {
 
@@ -140,7 +140,6 @@ $breakpoint-desktop : 1600px;
 
     .name-title{
         font-size: 6rem;
-        color: red;
     }
 }
 
@@ -173,7 +172,7 @@ $breakpoint-desktop : 1600px;
                     color: $main-mint;
                 }
                 a:hover {
-                    text-decoration: underline;
+                    text-decoration: none;
                     
                     // color: transparent;
                     // -webkit-text-stroke: ;

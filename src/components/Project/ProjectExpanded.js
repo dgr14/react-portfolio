@@ -8,11 +8,11 @@ const ProjectExpanded = props => {
     // console.log(projects)
     const expandedProject = useParams().project
     const project = projects.filter(project => expandedProject === project.name)[0]
-
+    
     return(
         <div className='project-expanded'>
             {/* <img /> */}
-            <h1>{project.name}</h1>
+            <a href={`${project.url}`} target='_blank'><h1>{project.name}</h1></a>
             <div className='des-holder'>
                 <p>{project.description}</p>
             </div>

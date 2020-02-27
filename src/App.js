@@ -44,7 +44,7 @@ class App extends Component {
           {backdrop}
           <main>
           {/* Main is the container that switches pages */}
-            <Switch>
+            {/* <Switch>
               <Route exact path='/' component={Home} />
               <Route path='/about' component={AboutMe} />
 
@@ -52,7 +52,14 @@ class App extends Component {
               <Route path='/projectview/:project' component={ProjectExpanded} />
 
               <Route path='/skills' component={SkillPage} />
-            </Switch>
+            </Switch> */}
+            {/* Need this for react scroll */}
+            <Home />
+            <AboutMe />
+
+            <ProjectPage />
+
+            <SkillPage />
 
           </main>
           <Footer />

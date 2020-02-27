@@ -1,4 +1,4 @@
-import React, { Suspense } from 'react'
+import React from 'react'
 import '../../Styles/Home/Home.css'
 
 import LoadingPage from '../LoadingPage/LoadingPage.js'
@@ -8,7 +8,7 @@ import Spacer from '../Spacer/Spacer'
 
 const View = () => {
     return(
-        <Suspense fallback={ <LoadingPage /> }>
+        
             <div className='home-page'>
                 <Spacer />
                 <div className='home-content'>
@@ -29,7 +29,6 @@ const View = () => {
                 {/* <Project title='CHCK' description='' image='' />
                 <Project title='' description='' image='' /> */}
             </div>
-        </Suspense>
     )
 }
 

@@ -45,7 +45,10 @@
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .footer a {
+  .footer .resume-container {
+    position: relative;
+  }
+  .footer .resume-container a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -55,8 +58,9 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    color: #bbf3da;
   }
-  .footer a :hover {
+  .footer .resume-container a:hover {
     color: red;
   }
   .footer svg {
